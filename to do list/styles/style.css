@@ -55,23 +55,32 @@ img{
     
 }
 .adddiv{
-    width: 100%;
+    width: 80%;
+    height: 50px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 .addbtn{
-
-    margin-bottom: 20px;
+    height: 40px;
+    border:2px solid #010924;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #010924;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 5px;
 }
 .doinput{
-    width: 80%;
-    height: 30px;
+    width: 50%;
+    height: 40px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: rgb(38, 37, 73);
     color: rgb(150, 148, 148);
+    padding-left: 15px;
+
 }
 .deletebtn{
     width: 30%; 

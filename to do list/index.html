@@ -22,12 +22,16 @@
        
         
        <div class="adddiv">
-        <p class="addbtn">+ Add New Todo</p>
         <input type="text" class="doinput" title="titleText" placeholder="my work...">
+        <button class="addbtn">+ Add New</button>
+        <select name="filter" class="addbtn" >
+            <option value="volvo">ALL TODOS</option>
+            <option value="saab">COMPLETED TODOS</option>
+        </button>
        </div>
         
     </div>
-
-    <script src="./scripts/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.1/redux.min.js"></script>
+    <script src="./scripts/app.js" type="module" ></script>
 </body>
 </html>
