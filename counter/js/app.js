@@ -2,7 +2,7 @@ import {
     counterDecrement,
     counterIncrement,
     counterSetZero
-}from "../redux/actions.js";
+}from "../redux/actionsType.js";
 
 const decBtn = document.querySelector('.dec');
 const resetBtn = document.querySelector('.reset');
