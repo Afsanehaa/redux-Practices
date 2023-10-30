@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 200vh;
+    height: 100vh;
+    background:linear-gradient(128deg ,#010924 ,#241a7d, #19125d) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    width: 40%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 5PX;
+    box-shadow:10px 10px 10px #140f40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.todoul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    position: relative;
+    top: -20px;
+}
+    
+.todoli{
+    width: 80%;
+    border-radius: 50px;
+    height: 30px;
+    background-color: #140f40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 5px;
+    color: #fff;
+}
+/* .todotitle{
+    color: #fff;
+} */
+img{
+ 
+    margin-left: 60px;
+    margin-right: 20px;
+    
+}
+.adddiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.addbtn{
+
+    margin-bottom: 20px;
+}
+.doinput{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(38, 37, 73);
+    color: rgb(150, 148, 148);
+}
+.deletebtn{
+    width: 30%; 
+   
+}
