@@ -1,3 +1,3 @@
-export const counterDecrement = "DECREMENT"
-export const counterIncrement = "INCREMENT"
-export const counterSetZero = "SET-ZERO"
+export const counterDecrement = "DECREMENT";
+export const counterIncrement = "INCREMENT";
+export const counterSetZero = "SET-ZERO";

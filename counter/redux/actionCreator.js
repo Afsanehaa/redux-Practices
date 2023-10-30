@@ -1,18 +1,18 @@
-import { counterDecrement, counterIncrement, counterSetZero } from "./actionsType";
+import { counterDecrement , counterIncrement , counterSetZero } from "./actionsType.js";
 
 const incrementAction = ()=>{
     return{
-        type:counterIncrement
+        type: counterIncrement
     }
 }
 const decrementAction = ()=>{
     return{
-        type:counterDecrement
+        type: counterDecrement
     }
 }
 const setZeroAction = ()=>{
     return{
-        type:counterSetZero
+        type: counterSetZero
     }
 }
 
